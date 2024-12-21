@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cognifyz Technologies</title>
+</head>
+<body>
+    <!--A simple navigation menu-->
+    <nav>
+        <button id="hamburger">&#9776;</button>
+        <ul id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!--A heading, paragraph and an image-->
+    <h1>Internship Level 1 - Task 1</h1>
+    <p>This is the first task of my internship program at Cognifyz Technologies. It is a web page that has different HTML elements like heading, paragraph, images and a form. It has some CSS for styling.</p>
+    <img src="images.jpeg" alt="This is a photo a pond">
+
+
+    <!--A basic form with a single input field and a submit button-->
+    <div class="basic_form">
+        <h3>Basic Form</h3>
+        <form action="">
+            <label for="text">Enter Text:</label>
+            <input type="text"><br>
+            <input type="submit" value="Submit" id="button">
+        </form>
+    </div>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

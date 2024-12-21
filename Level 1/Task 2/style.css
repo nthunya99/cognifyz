@@ -1,0 +1,53 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px;
+}
+
+#buttonColor {
+    background-color: rgb(145, 102, 102);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.alert_box {
+    border-top: solid;
+    margin-top: 20px;
+
+}
+
+#alertBtn {
+    background-color: rgb(182, 182, 230);
+    padding: 3px 10px;
+    border: solid;
+    border-radius: 15px;
+}
+
+#num1 {
+    width: 40px;
+    border: solid;
+    border-radius: 10px;
+}
+
+#num2 {
+    width: 40px;
+    border: solid;
+    border-radius: 10px;
+}
+
+.calculator {
+    width: 300px;
+    border: solid;
+    border-radius: 15px;
+    margin: 100px auto;
+    height: 300px;
+}
+
+#addbtn {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+
+}
